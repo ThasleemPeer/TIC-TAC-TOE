@@ -12,7 +12,6 @@ body {
 }
 .container{
     height: 70vh;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +37,17 @@ body {
 
 }
 .box:hover{
-    background-color: black;
+    background-color: rgb(23, 23, 23);
     color: white;
     cursor: grab;
     color: #b03e60;
 
+}
+#rest-btn{
+  padding: 1rem;
+  font-size:1.25rem ;
+  background-color: #191913;
+  color:white;
+  border-radius: 0.7rem;
+  border: none;
 }
