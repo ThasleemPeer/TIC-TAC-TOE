@@ -21,7 +21,6 @@ body {
 .game{
     height: 60vmin;
     width: 60vmin;
-    border: 2px solid yellow;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,11 +33,14 @@ body {
     border-radius: 0.7rem;
     border: none;
     box-shadow: 0 0 0 rgba(0,0,0,0.3) ;
+    font-size:8vmin ;
+    color: #b0413e;
 
 }
 .box:hover{
     background-color: black;
     color: white;
     cursor: grab;
+    color: #b03e60;
 
 }
