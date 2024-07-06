@@ -34,13 +34,7 @@ body {
     box-shadow: 0 0 0 rgba(0,0,0,0.3) ;
     font-size:8vmin ;
     color: #b0413e;
-
-}
-.box:hover{
-    background-color: rgb(23, 23, 23);
-    color: white;
-    cursor: grab;
-    color: #b03e60;
+    background-color: #ffffc7;
 
 }
 #rest-btn{
@@ -50,4 +44,23 @@ body {
   color:white;
   border-radius: 0.7rem;
   border: none;
+}
+#new-btn{
+  padding: 1rem;
+  font-size:1.25rem ;
+  background-color: #191913;
+  color:white;
+  border-radius: 0.7rem;
+  border: none;
+}
+#msg{
+  color: #ffffc7;
+  font-size: 5vmin;
+
+}
+.msg-container{
+  height:30vmin ;
+}
+.hide{
+  visibility: hidden;
 }
