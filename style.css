@@ -7,6 +7,38 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #548687;
+  background-color: #549192;
   text-align: center;
+}
+.container{
+    height: 70vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    border: 2px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.7rem;
+    border: none;
+    box-shadow: 0 0 0 rgba(0,0,0,0.3) ;
+
+}
+.box:hover{
+    background-color: black;
+    color: white;
+    cursor: grab;
+
 }
